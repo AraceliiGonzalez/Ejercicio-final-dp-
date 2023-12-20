@@ -1,11 +1,11 @@
-Se debe hacer un archivo local_settings.py para la base de datos (en este caso postgresql), dentro del texto solo se debe poner lo siguiente:
+Modificar archivos locales en settings
 
 DATABASES = {
     'default': {
         'ENGINE': "django.db.backends.postgresql",
-        'NAME': 'el nombre de tu db',
-        'USER': 'el user de tu db',
-        'PASSWORD': 'la contraseña de tu db',
+        'NAME': 'db nombre',
+        'USER': 'db user',
+        'PASSWORD': 'db password',
         'HOST': '127.0.0.1',
         'PORT': '5432',
     }
